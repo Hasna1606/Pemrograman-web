@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORMULIR</title>
+</head>
+<body>
+  <form name="formulir_online">
+    <table align="center" width="50%" cellpadding="5">
+      <thead>
+        <tr bgcolor="lightblue">
+          <th colspan="2">Formulir</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr bgcolor="lightpink">
+          <th colspan="2">
+               <input type="submit" name="nama" value="Simpan"/>
+               <input type="reset" name="batal" value="Batal"/>
+               </th>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>Nama</td>
+          <td>
+            <input type="text" name="nama" value=""/>
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input type="password" name="sandi" value=""/>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+           <input type="radio" name="jk" value="L" chechked/>Pria &nbsp;
+           <input type="radio" name="jk" value="P"/>Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Hobby</td>
+          <td>
+            <input type="checkbox" name="hobi" value="memasak"/>Memasak<br/>
+            <input type="checkbox" name="hobi" value="memancing"/>Memancing<br/>
+            <input type="checkbox" name="hobi" value="Berenang"/>Berenang<br/>
+            <input type="checkbox" name="hobi" value="Menari"/>Menari<br/>
+          </td>
+        </tr>
+        <tr>
+          <td>Pendidikan</td>
+          <td>
+            <select name="pendidikan">
+              <option value="Pilih Pendidikan Akhir">Pilih Pendidikan Akhir</option>
+              <option value="SMP">SMP</option>
+              <option value="SMA">SMA</option>
+              <option value="S1">S1</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Alamat</td>
+          <td>
+            <textarea name="alamat" id="" cols="30"></textarea>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</body>
+</html>
