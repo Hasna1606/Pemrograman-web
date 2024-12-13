@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Suara Hewan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function playSound(hewan) {
+        const sound = document.getElementById("suarahewan");
+        sound.src = `sound/${hewan}.mp3`;
+        sound.play();
+    }
+</script>
+<body>
+    <audio id="suarahewan"></audio>
+    <div class="container">
+        <h1>SUARA HEWAN</h1>
+        <p class="p1">Tekan pada bagian gambar untuk mendegarkan suaranya!</p>
+        <div class="hewan">
+            <div class="hewan1" onclick="playSound('gajah')">
+                <img src="img/gajah.jpg" alt="Gajah">
+                <p>GAJAH</p>
+            </div>
+            <div class="hewan1" onclick="playSound('lumbaLumba')">
+                <img src="img/lumba.jpg" alt="Lumba-lumba">
+                <p>LUMBA-LUMBA</p>
+            </div>
+            <div class="hewan1" onclick="playSound('elang')">
+                <img src="img/elang.jpg" alt="Elang">
+                <p>ELANG</p>
+            </div>
+            <div class="hewan1" onclick="playSound('seals')">
+                <img src="img/anjinglaut.jpg" alt="Anjing Laut">
+                <p>ANJING LAUT</p>
+            </div>
+            <div class="hewan1" onclick="playSound('ular')">
+                <img src="img/ular.jpg" alt="Ular">
+                <p>ULAR</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

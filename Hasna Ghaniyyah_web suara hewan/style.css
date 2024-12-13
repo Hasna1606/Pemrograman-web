@@ -1,0 +1,61 @@
+body{
+    background-color: #9eaef4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1d3d88;
+}
+
+.p1{
+    color: #284c80;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+img{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: ridge #7daac6;
+    border-radius: 20px;
+    width: 5cm; 
+}
+
+.hewan{
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      gap: 20px; 
+}
+
+.hewan1 p{
+    color: #b8bef4;
+    border: ridge #a9c5d6;
+    padding: 5px; 
+    margin: 0 auto;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 5cm; 
+    background-color: #17587d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hewan1 img:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
